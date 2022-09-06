@@ -1,0 +1,60 @@
+    1  firefox
+    2  git config --global user.name "Anatoliy"
+    3  git config --global user.email "anatoliypuss5@gmail.com"
+    4  ssh-keygen
+    5  cat /home/tolyasek/.ssh/id_rsa
+    6  ssh-add /home/tolyasek/.ssh/id_rsa
+    7  cat /home/tolyasek/.ssh/id_rsa.pub
+    8  ssh -T git@github.com
+    9  pwd
+   10  ls
+   11  cd Documents/
+   12  git clone https://github.com/anatoliypus/inno-os.git
+   13  git clone git@github.com:anatoliypus/inno-os.git
+   14  pwd
+   15  ls
+   16  pwd
+   17  cd ..
+   18  ls
+   19  mkdir week1
+   20  cd week1
+   21  touch ex1.sh
+   22  code ex1.sh
+   23  pwd
+   24  cd week1
+   25  sh ex1.sh
+   26  man grep
+   27  sh ex1.sh
+   28  clear
+   29  sh ex1.sh
+   30  man grep
+   31  sh ex1.sh
+   32  ls
+   33  cat 1.txt
+   34  pwd
+   35  ls /usr/bin
+   36  ls /usr/bin | grep 'gcc'
+   37  sudo apt-get install build-essentials
+   38  sudo apt-get install build-essential
+   39  sudo apt-get install manpages-dev
+   40  gcc --version
+   41  ls /usr/bin
+   42  sh ex1.sh
+   43  man
+   44  man sort
+   45  sh ex1.sh
+   46  whoami
+   47  hostname
+   48  man man
+   49  sh ex2.sh
+   50  sudo apt-get install bash
+   51  chsh -s /bin/bash
+   52  sh ex2.sh
+   53  man cut
+   54  ls
+   55  cd week1
+   56  ls
+   57  rm ex2.sh
+   58  rm ex2.txt
+   59  ls
+   60  history > ex2.txt
