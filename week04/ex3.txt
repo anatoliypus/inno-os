@@ -1,0 +1,9 @@
+In each iteration in each process a new child process is created.
+So if we have one process in the beginning, this process will create a new one (1 => 2).
+Then we have to processes. 
+Each process will make an iteration and two new child processses will be created.
+We can conclude that after each iteration the amount of processes doubles =>
+=> the amount of processes in the end = 2^n, where n is amount of iterations.
+
+So for the case with n=3, the result is 2^3=8
+                     n=5, the result is 2^5=32.
