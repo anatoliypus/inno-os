@@ -1,0 +1,9 @@
+As we can see, average time of execution of ex3 is smaller.
+
+I think, that is because of mutex. The process, which uses it,
+blocks the execution of other threads, which makes a delay in
+running.
+
+The main idea of time becoming smaller, when the amount of
+threads is increased, has already been described in 
+ex3.explanation.txt.

@@ -1,0 +1,14 @@
+In the ex3.txt file we are actually interested only in 
+'real' column, which displays the actual time of 
+execution. We see, that if the amount of threads
+increases, then the execution time decreases.
+
+Actually, I have a multicore processor (4 CPUs). My system
+knows it, and when a program, which has several threads,
+executes, system will give to the program resources
+to run on different cores. This ability reduces execution
+time.
+
+Also I`ve tried to run this program on a virtual machine
+(Ubuntu) with only one CPU available. The 'real' execution
+times were pretty much the same in each row.
