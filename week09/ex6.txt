@@ -1,0 +1,6 @@
+We have 16-bit virtual addresses and 8KB pages.
+
+8KB = 8 * 1024 = 8192 = 2 ^ 13 bytes => we need 13 bits to set
+an offset
+
+16 - 13 = 3 bits => 2 ^ 3 = 8 => We can specify 8 virtual pages.

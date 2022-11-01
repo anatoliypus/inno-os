@@ -1,0 +1,7 @@
+Physical memory is a set of addresses, which are related to
+actual cells of system memory (RAM).
+
+Virtual memory is an abstraction, which gives the programmer
+an illusion of large system memory or RAM. It is used, when a
+programm needs more space, than RAM can suggest. At that moment,
+some pages from RAM are transfered between RAM and hard disk.
