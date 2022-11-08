@@ -1,0 +1,8 @@
+The simplest idea, which came to my mind is following:
+Let`s just sort our pages. 
+
+With this approach, all references to a certain page will come one 
+after another, because all pages in input file are sorted, same pages 
+are located nearby. This guarantees increasing of hit/miss ratio, 
+because starting from the 2nd reference, page will always be in memory, 
+because it has already been referenced one tick ago.
