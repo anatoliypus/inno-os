@@ -1,0 +1,15 @@
+./_ex2.txt
+total 96
+-rw-r--r--  3 tolyasek  staff     9 15 ноя 20:01 _ex1.txt
+-rw-r--r--  3 tolyasek  staff     9 15 ноя 20:01 _ex1_1.txt
+-rw-r--r--  3 tolyasek  staff     9 15 ноя 20:01 _ex1_2.txt
+-rwxrwxrwx  1 tolyasek  staff     9 12 ноя 14:26 _ex3.txt
+-rw-r--r--  1 tolyasek  staff   236 12 ноя 12:38 ex1.sh
+-rw-r--r--  1 tolyasek  staff    55 15 ноя 20:01 ex1.txt
+-rw-r--r--  1 tolyasek  staff   357 15 ноя 20:25 ex2.sh
+-rw-r--r--  1 tolyasek  staff    11 15 ноя 20:25 ex2.txt
+-rw-r--r--  1 tolyasek  staff   788 12 ноя 14:26 ex3.sh
+-rw-r--r--  1 tolyasek  staff   591 12 ноя 14:26 ex3.txt
+-rw-r--r--  1 tolyasek  staff  1433 12 ноя 15:24 ex4.c
+-rw-r--r--  1 tolyasek  staff   131 12 ноя 14:54 ex4.sh
+drwxr-xr-x  5 tolyasek  staff   160 12 ноя 15:24 tmp
