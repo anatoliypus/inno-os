@@ -1,0 +1,20 @@
+00000000-0000ffff : PCI Bus 0000:00
+  00001000-0000107f : 0000:00:06.0
+  00001080-000010bf : 0000:00:07.0
+  000010c0-000010df : 0000:00:01.0
+  000010e0-000010ff : 0000:00:08.0
+
+Unfortunately this is all the data, which was in /proc/ioports on my machine.
+I think this is somehow related to the fact, that I use virtual machine
+(or may be because I use arm64 Linux, i do not know).
+I`ve also checked what should be here, so below you can check the explanations.
+
+dma stands for Direct Memory Access device. This thing helps CPU with controlling some of
+I/O devices by working with this I/O controllers.
+
+pic stands for programmable interrupt controller. This thing helps CPU to handle interrupt 
+requests from I/O devices. From this port you can get values, which are used to determine, 
+which interrupts will cause the CPU to be interrupted.
+
+timer is programmable interval timer, which is a counter that generates an output signal
+when it reaches a programmed count. This output signal may trigger an interrupt.
