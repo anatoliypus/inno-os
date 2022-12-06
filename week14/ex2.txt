@@ -1,0 +1,17 @@
+In the lecture we`ve discussed three methods:
+    1) Preemption
+    2) Rollback
+    3) Killing processes
+
+1) In preemption we temporarily take resources away from one process and
+give them to another. This technique works great if it is easy to make
+such swithces of resources
+
+2) In rollback we downgrade to a certain state, where the process started using
+the needed resource (to the checkpoint). After using the resource, it will be given
+back and the stopped process will restart from the checkpoint. I think this
+is an improved preemption. May be it will avoid losing some data.
+
+3) Killing processes is a simple technique, when we just kill some process to
+get resources for a deadlocked process. It works good, when killed process
+can be rerunned after a while without any ill effects.
